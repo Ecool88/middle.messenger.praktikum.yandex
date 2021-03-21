@@ -1,0 +1,10 @@
+.label-wrapper {
+  width: 510px;
+  height: 25px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #EAEAEA;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=label-profile.css.map */

@@ -1,0 +1,34 @@
+extends ../../layout
+block scripts
+    script(src='./../../main.js')
+    script(src='./chats.js')
+    script(src='../../components/header-profile/header-profile.js')
+    script(src='../../components/item-user/item-user.js')
+
+block content
+    div.wrapper
+        div.users
+            include ../../components/header-profile/header-profile
+            nav
+                ul
+                    include ../../components/item-user/item-user
+                    +itemUser('Андрей', 'Изображение', '10:33', '2')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+                    +itemUser('iava', 'sjfiejwfij', '10:33', '4')
+        main
+            div.choose-chat Выберите чат чтобы отправить сообщение
+

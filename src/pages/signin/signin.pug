@@ -1,0 +1,17 @@
+extends ../../layout
+block scripts
+    script(src='./../../main.js')
+    script(src='./signin.js')
+    script(src='../../blocks/signin-form/signin-form.js')
+    script(src='../../components/label-form/label-form.js')
+    script(src='../../components/button/button.js')
+    script(src='../../components/button-link/button-link.js')
+block content
+    div.wrapper
+        include ../../components/subtitle/subtitle
+        +subtitle('Регистрация')
+        include ../../blocks/signin-form/signin-form
+        include ../../components/button/button
+        +buttonItem('Авторизация')
+        include ../../components/button-link/button-link
+        +buttonLink('/login/login.pug','Войти')

@@ -1,0 +1,28 @@
+li {
+  padding: 10px 0;
+  display: flex;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.dialog-content {
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+.dialog-content {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.unread-message {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  text-align: center;
+  border-radius: 50%;
+  background: #3369F3;
+  color: white;
+}
+
+/*# sourceMappingURL=item-user.css.map */

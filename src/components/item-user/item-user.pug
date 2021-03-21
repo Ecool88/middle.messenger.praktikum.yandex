@@ -1,0 +1,12 @@
+mixin itemUser(name, message, date, unread)
+    li
+        div.logo
+        div.dialog-content
+            div.message
+                div.dialog__name= name
+                div.dialog__message= message
+
+            div.date
+                div.time= date
+                div.unread-message= unread
+
