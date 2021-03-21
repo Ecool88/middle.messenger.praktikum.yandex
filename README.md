@@ -1,1 +1,1 @@
-https://github.com/Yandex-Practicum/tests-second-floor/1_sprint/check_github_link.git
+https://github.com/Ecool88
