@@ -4,8 +4,9 @@
   "description": "This is project for module 1",
   "main": "main.js",
   "scripts": {
-    "start": "./node_modules/.bin/parcel src/pages/**/*.pug --port 3000 && node src/modules/server.js",
-    "build": "./node_modules/.bin/parcel build src/index.pug "
+    "dev": "./node_modules/.bin/parcel src.pages/index.html src/pages/**/*.pug --port 3000",
+    "start": "parcel build src/pages/index.pug src/pages/**/*.pug  && node ./server.js",
+    "build": "./node_modules/.bin/parcel build src/pages/index.pug "
   },
   "repository": {
     "type": "git",

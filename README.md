@@ -1,7 +1,11 @@
 # module-1
 This is project for module 1
 
-pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/5
+pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/6
+
+
+команда npm run start собирает проект в dist и раздает на 3000 порту с помощью экспресс
+команда npm run dev собирает проект для режима разработки на 3000 порту с помощью parcel
 
 Домен netify https://quizzical-kare-014a12.netlify.app/
 
@@ -16,6 +20,8 @@ pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/5
     http://localhost:3000/signin/signin.html    signin
 
 как сделать так чтобы навигация была к примеру http://localhost:3000/profile.html, я понимаю что это зависит от содержимого папки dist т.к там файлы .html вложены в папки, как от этого избавиться, я думаю что это из-за настройки сборки в parcel, также буду благодарен за ваши рекомендации
+
+Вопрос насчет семантических тегов nav, header, main, footer они должны применяться на всех страницах? Можете для примера привести где будет актуально их применение?
 
 По макету проекта оставил практические без изменений https://www.figma.com/file/a66YiMEpT1FZrLTxS9KjP0/Chat-Changed-fonts-colors изменил некоторые цвета
 
