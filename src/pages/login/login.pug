@@ -1,18 +1,13 @@
-extends ../../layout
+extends ../../layout/layout
+block variables
+    - var title = 'Login'
+
 block scripts
-    script(src='./../../main.js')
     script(src='./login.js')
-    script(src='../../blocks/login-form/login-form.js')
-    script(src='../../components/label-form/label-form.js')
-    script(src='../../components/button/button.js')
-    script(src='../../components/button-link/button-link.js')
 block content
-    div.wrapper
-        include ../../components/subtitle/subtitle
+    div.wrapper-login
+        include ../../components/headline/headline
         +subtitle('Вход')
         include ../../blocks/login-form/login-form
-        include ../../components/button/button
-        +buttonItem('Авторизация')
-        include ../../components/button-link/button-link
-        +buttonLink('/signin/signin.pug','Нет аккаунта?')
+
 

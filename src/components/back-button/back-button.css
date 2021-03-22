@@ -1,10 +1,16 @@
-button {
-  width: 60px;
+.form__btn-back {
+  width: 64px;
   height: 100vh;
+  border: none;
+  outline: none;
+  background-color: #EDEDED;
 }
-
-a.back {
-  margin: auto;
+.form__btn-back:active {
+  background-color: #999;
+}
+.form__img {
+  height: 28px;
+  width: 28px;
 }
 
 /*# sourceMappingURL=back-button.css.map */

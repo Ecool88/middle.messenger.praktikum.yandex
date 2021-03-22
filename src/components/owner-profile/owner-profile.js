@@ -1,0 +1,1 @@
+import './owner-profile.scss'

@@ -1,12 +1,13 @@
 mixin itemUser(name, message, date, unread)
-    li
-        div.logo
-        div.dialog-content
-            div.message
-                div.dialog__name= name
-                div.dialog__message= message
+    li.list-chat__item
+        div.item__avatar
+        div.item__dialog
+            div.dialog
+                div.dialog__user= name
+                div.dialog__date= date
+            div.content
+                div.content__text-preview= message
+                if  unread
+                    div.content__unread-message= unread
 
-            div.date
-                div.time= date
-                div.unread-message= unread
 

@@ -1,3 +1,10 @@
-
+.form {
+  width: 280px;
+  height: 83%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=signin-form.css.map */

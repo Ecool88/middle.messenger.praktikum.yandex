@@ -1,4 +1,8 @@
-a {
+.link {
+  margin: 15px 0;
+  text-align: center;
+}
+.link__item {
   text-decoration: none;
   color: #3369F3;
   font-size: 13px;

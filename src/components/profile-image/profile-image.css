@@ -1,6 +1,50 @@
-img {
-  height: 40px;
+.user-avatar {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: #EDEDED;
+  border-radius: 50%;
+  position: relative;
+}
+.user-avatar__wrapper {
+  width: 130px;
+  height: 130px;
+}
+.user-avatar__logo {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.user-avatar__img {
   width: 40px;
+  height: 40px;
+}
+.user-avatar__top-buble {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+.user-avatar__top-buble:hover {
+  display: block;
+}
+.user-avatar:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.user-avatar:hover .user-avatar__top-buble {
+  width: 70px;
+  height: 50px;
+  display: block;
+  text-align: center;
+}
+.user-avatar:hover .user-avatar__logo {
+  opacity: 0.3;
+}
+.user-avatar__change-link {
+  color: white;
+  font-size: 15px;
+  line-height: 14px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=profile-image.css.map */

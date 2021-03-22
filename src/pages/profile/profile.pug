@@ -1,26 +1,28 @@
-extends ../../layout
+extends ../../layout/layout
+block variables
+    - var title = 'Profile'
+
 block scripts
-    script(src='./../../main.js')
     script(src='./profile.js')
-    script(src='../../components/back-button/back-button.js')
-    script(src='../../components/profile-image/profile-image.js')
-    script(src='../../components/label-profile/label-profile.js')
 
 block content
-    div.wrapper
+    div.wrapper-profile
         include ../../components/back-button/back-button
         main
             div.wrapper-content
                 include ../../components/profile-image/profile-image
-                h4 Иван
-                include ../../components/label-profile/label-profile
-                +labelProfile('Почта', 'mail@yandex.ru')
-                +labelProfile('Логин', 'ivanivanov')
-                +labelProfile('Имя', 'Иван')
-                +labelProfile('Фамилия', 'Иванов')
-                +labelProfile('Имя в чате', 'Иван')
-                +labelProfile('Телефон', '+7 (909) 967 30 30')
-                a.change Изменить данные
-                a.change Изменить пароль
-                a.exit(href='/login/login.pug') Выйти
+                include ../../components/headline/headline
+                +subtitle('Иван')
+                div.user-info
+                    include ../../components/label-profile/label-profile
+                    +labelProfile('Почта', 'mail@yandex.ru')
+                    +labelProfile('Логин', 'ivanivanov')
+                    +labelProfile('Имя', 'Иван')
+                    +labelProfile('Фамилия', 'Иванов')
+                    +labelProfile('Имя в чате', 'Иван')
+                    +labelProfile('Телефон', '+7 (909) 967 30 30')
+                div.control
+                    a.control__change Изменить данные
+                    a.control__change Изменить пароль
+                    a.control__exit(href='/login/login.pug') Выйти
 

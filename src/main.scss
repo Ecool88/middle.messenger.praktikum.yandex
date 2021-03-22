@@ -1,5 +1,17 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+
 body{
   margin: 0;
   padding: 0;
-  position: relative;
+  background-color: #F6F6F6;
+}
+
+ul,li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
 }

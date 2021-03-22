@@ -1,9 +1,7 @@
 mixin formItem(label, type, placeholder)
-    .form__el-cont
-        .form__label-cont
-            label.label= label
-        .form__inp-cont
-            input.inp-text(type= type placeholder= placeholder)
+    .form__item
+        label.form__label= label
+        input.form__input(type= type placeholder= placeholder)
 
 
 

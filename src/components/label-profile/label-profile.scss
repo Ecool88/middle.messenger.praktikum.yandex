@@ -1,8 +1,20 @@
-.label-wrapper{
-  width: 510px;
-  height: 25px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #EAEAEA;
-  display: flex;
-  justify-content: space-between;
+.user-info{
+  &__item{
+    height: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+  }
 }
+.item{
+  &__title{
+    font-size: 15px;
+  }
+  &__subtitle{
+    font-size: 15px;
+    color: #999;
+  }
+}
+
+

@@ -1,5 +1,11 @@
-form
-    include ../../components/label-form/label-form
-    +formItem('Логин', 'text', 'Введите логин')
-    +formItem('Пароль', 'password','Введите пароль')
+form.form
+    div.form__inputs
+        include ../../components/label-form/label-form
+        +formItem('Логин', 'text', 'Введите логин')
+        +formItem('Пароль', 'password','Введите пароль')
+    div.form__buttons
+        include ../../components/button/button
+        +buttonItem('Авторизация')
+        include ../../components/button-link/button-link
+        +buttonLink('/signin/signin.pug','Нет аккаунта?')
 

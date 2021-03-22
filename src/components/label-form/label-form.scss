@@ -1,14 +1,23 @@
-.label{
-  color: #999999;
-  font-size: 11px;
+//@import "color";
+
+.form{
+  //background-color: $color_black;
+  &__item{
+    display: flex;
+    flex-direction: column;
+  }
+  &__label{
+    color: #999999;
+    font-size: 11px;
+  }
+  &__input{
+    height: 24px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #3369F3;
+    color: #1E1E1E;
+  }
 }
-//input{
-//  width: 280px;
-//  outline: none;
-//  border: none;
-//  border-bottom: 1px solid #3369F3;
-//  height: 24px;
-//  color: #1E1E1E;
-//  font-size: 13px;
-//  margin-bottom: 20px;
-//}
