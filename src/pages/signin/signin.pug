@@ -1,0 +1,11 @@
+extends ../../layout/layout
+block variables
+    - var title = 'Registration'
+
+block scripts
+    script(src='./signin.js')
+block content
+    div.wrapper-signin
+        include ../../components/headline/headline
+        +subtitle('Регистрация')
+        include ../../blocks/signin-form/signin-form

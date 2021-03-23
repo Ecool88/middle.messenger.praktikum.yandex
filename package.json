@@ -1,0 +1,30 @@
+{
+  "name": "module-1",
+  "version": "1.0.0",
+  "description": "This is project for module 1",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/parcel build src/pages/index.pug src/pages/chats/chats.pug src/pages/login/login.pug src/pages/profile/profile.pug src/pages/signin/signin.pug && node ./server.js",
+    "dev": "./node_modules/.bin/parcel src/pages/index.pug src/pages/chats/chats.pug src/pages/login/login.pug src/pages/profile/profile.pug src/pages/signin/signin.pug --open --port 3000",
+    "build": "./node_modules/.bin/parcel build src/pages/index.pug src/pages/**/*.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecool88/module-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ecool88/module-1/issues"
+  },
+  "homepage": "https://github.com/Ecool88/module-1#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.5",
+    "pug": "^3.0.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
