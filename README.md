@@ -1,7 +1,7 @@
 # module-1
 This is project for module 1
 
-pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/9
+pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/11
 
 
 команда npm run start собирает проект в dist на 3000 и включает в работу server.js порту с помощью parcel
