@@ -1,7 +1,7 @@
 # module-1
 This is project for module 1
 
-pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/17
+pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/18
 
 
 
