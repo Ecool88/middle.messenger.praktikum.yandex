@@ -1,12 +1,10 @@
 # module-1
 This is project for module 1
 
-pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/15
+pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/16
 
 
-команда npm run start собирает проект в dist на 3000 и включает в работу server.js порту с помощью parcel
-
-команда npm run dev собирает проект для режима разработки на 3000
+команда npm run start собирает проект для режима разработки на 3000 порту с помощью parcel
 
 Домен netify https://quizzical-kare-014a12.netlify.app/
 
