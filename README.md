@@ -3,6 +3,7 @@ This is project for module 1
 
 pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/18
 
+Но вроде как я понял при 18 пуле, смерджился я с веткой main, так должно быть?
 
 
 
