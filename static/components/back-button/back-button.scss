@@ -1,0 +1,17 @@
+.form{
+  margin: 0;
+  &__btn-back{
+    width: 64px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #EDEDED;
+    &:active{
+      background-color: #999;
+    }
+  }
+  &__img{
+    height: 28px;
+    width: 28px;
+  }
+}

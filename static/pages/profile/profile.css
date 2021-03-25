@@ -1,0 +1,35 @@
+main {
+  flex-grow: 1;
+}
+
+.wrapper-profile {
+  display: flex;
+  height: 100%;
+}
+.wrapper-content {
+  width: 510px;
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.control {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.control__change {
+  height: 20px;
+  width: 510px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #3369F3;
+  border-bottom: 1px solid #EAEAEA;
+}
+.control__exit {
+  font-size: 15px;
+  color: red;
+}
+
+/*# sourceMappingURL=profile.css.map */

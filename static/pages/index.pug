@@ -1,0 +1,27 @@
+extends ../layout/layout
+block variables
+    - var title = 'Выберите страницу'
+
+block scripts
+    script(src='../components/add-files/add-files.js')
+    script(src='../main.js')
+    script(src='../components/button/button.js')
+    script(src='../components/items-more/items-more.js')
+
+block content
+    //include ../components/add-files/add-files
+    ul
+        li
+            a(href='login/login.pug') Login
+        li
+            a(href='signin/signin.pug') Signin
+        li
+            a(href='chats/chats.pug') Chats
+        li
+            a(href='profile/profile.pug') Profile
+        li
+            a(href='404/404.pug') 404
+        li
+            a(href='505/505.pug') 505
+
+    //include ../components/items-more/items-more
