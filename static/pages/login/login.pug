@@ -1,0 +1,13 @@
+extends ../../layout/layout
+block variables
+    - var title = 'Login'
+
+block scripts
+    script(src='./login.js')
+block content
+    div.wrapper-login
+        include ../../components/headline/headline
+        +subtitle('Вход')
+        include ../../blocks/login-form/login-form
+
+

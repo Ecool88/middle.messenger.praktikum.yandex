@@ -1,0 +1,9 @@
+extends ../../layout/layout
+block variables
+    - var title = '404'
+
+block scripts
+    script(src='./404.js')
+block content
+    include ../../blocks/errors/errors
+    +errorPage('404', 'Не туда попали')

@@ -5,7 +5,7 @@ const path = require('path')
 const app = express();
 const PORT = 3000;
 
-// app.use(express.static('./'));
+// app.use(express.icons('./'));
 
 app.get('/', (req, res) => {
     // res.send('hello')
@@ -26,6 +26,14 @@ app.get('/profile/profile.html', (req, res) => {
 
 app.get('/chats/chats.html', (req, res) => {
     res.sendFile(path.resolve('dist' + '/chats/chats.html'))
+});
+
+app.get('/404/404.html', (req, res) => {
+    res.sendFile(path.resolve('dist' + '/404/404.html'))
+});
+
+app.get('/505/505.html', (req, res) => {
+    res.sendFile(path.resolve('dist' + '/505/505.html'))
 });
 
 app.listen(PORT, function () {

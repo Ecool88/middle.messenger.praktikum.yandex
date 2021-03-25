@@ -1,0 +1,42 @@
+.owner-profile {
+  height: 10vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #EDEDED;
+}
+.owner-profile__aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aside__logo {
+  width: 47px;
+  height: 47px;
+  background-color: grey;
+  border-radius: 50%;
+}
+.aside__link-profile {
+  text-decoration: none;
+  color: #919191;
+}
+
+.search {
+  margin-top: 5px;
+}
+.search__input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #FFF;
+  font-size: 15px;
+  color: #999;
+}
+.search__input::placeholder {
+  color: #999;
+}
+
+/*# sourceMappingURL=owner-profile.css.map */

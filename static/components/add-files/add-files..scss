@@ -1,0 +1,33 @@
+.upload-files{
+  width: 340px;
+  height: 260px;
+  padding: 30px 40px;
+  border-radius: 12px;
+  background: #F6F6F6;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+
+  &__wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__headline{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #1E1E1E;
+  }
+
+  &__choose-file{
+    width: 50%;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: underline;
+    color: #3369F3;
+  }
+}
