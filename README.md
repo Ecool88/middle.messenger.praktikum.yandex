@@ -1,13 +1,11 @@
 # module-1
 This is project for module 1
 
-pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/24
+pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/
 
 не заню в чем проблемы была про PR мб изначально создавался закрытый репозиторий сейчас сделал публичным? Дмитрий вопрос по тому сколько осталось ревью? Первые 2 тоже считаются там где вы писали чтобы открыть PR?
-
 команда npm run start раздает страницы на 3000 порту с помощью express и собирает проект
 команда npm run dev собирает проект для режима разработки на 3000 порту с помощью parcel
-
 Домен netify https://quizzical-kare-014a12.netlify.app/
 
 Вопрос по навигации тоже не пойму сейчас при запуске проекта страницы находятся по таким урл
@@ -30,4 +28,4 @@ pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/2
 
 
 
-
+Еще есть вопрос почему появляется вертикальная прокрутка страницы? Использование overflow-y: hidden наверное не верный выход из ситуации т.к если сузить окно браузера то все сожмется и прокруткии вообще не будет. Можете порекомендовать что лучше использовать?
