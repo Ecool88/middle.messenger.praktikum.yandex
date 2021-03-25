@@ -4,6 +4,9 @@ This is project for module 1
 pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/23
 
 
+не заню в чем проблемы была про PR мб изначально создавался закрытый репозиторий сейчас сделал публичным?
+Дмитрий вопрос по тому сколько осталось ревью? Первые 2 тоже считаются там где вы писали чтобы открыть PR?
+
 команда npm run start собирает проект для режима разработки на 3000 порту с помощью parcel
 
 Домен netify https://quizzical-kare-014a12.netlify.app/
