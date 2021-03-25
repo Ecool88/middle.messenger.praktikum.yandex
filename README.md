@@ -1,15 +1,8 @@
 # module-1
 This is project for module 1
 
-pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/18
+pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/23
 
-Но вроде как я понял при 18 пуле, смерджился я с веткой main, так должно быть?
-
-
-
-Если не открыт pull request(вопрос уже задал как его открыть) можете чекнуть плиз по этой ссылке проект, там его копия https://github.com/Ecool88/module-1. Или подскажи плиз, где это сделать?  (вроде бы запушил все на ветку dev репозитория middle.messenger.praktikum.yandex, затем сделал pull request из dev в main тесты прошли, замерджил и появилась надпись "Pull request successfully merged and closed". Но ревьюер написал чтобы я открыл pull request)
-
-Хотя вроде бы что-то пощелкал и вроде как создал pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/20 вроде он открыт(сообщите на ревью как и что нужно было сделать)
 
 команда npm run start собирает проект для режима разработки на 3000 порту с помощью parcel
 
