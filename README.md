@@ -1,7 +1,7 @@
 # module-1
 This is project for module 1
 
-pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/21
+pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/23
 
 
 команда npm run start собирает проект для режима разработки на 3000 порту с помощью parcel
