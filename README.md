@@ -13,3 +13,4 @@ pull request https://github.com/Ecool88/middle.messenger.praktikum.yandex/pull/2
 
 Добавил изменения о которых вы писали в PR 24
 Случились какие-то изменения в ветке dev и не могу запушить новые данные, пришлось создать ветку dev1 и запушить изменения с нее
+Функция со сбором данных находится в static/modules/formCollection
