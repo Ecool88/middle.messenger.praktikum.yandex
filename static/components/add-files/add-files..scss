@@ -1,9 +1,11 @@
+@import "../../layout/colors";
+
 .upload-files{
   width: 340px;
   height: 260px;
   padding: 30px 40px;
   border-radius: 12px;
-  background: #F6F6F6;
+  background: $color_light-grey;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
 
   &__wrapper{
@@ -19,7 +21,7 @@
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-    color: #1E1E1E;
+    color: $color_black;
   }
 
   &__choose-file{
@@ -28,6 +30,6 @@
     line-height: 16px;
     text-align: center;
     text-decoration: underline;
-    color: #3369F3;
+    color: $color_blue;
   }
 }

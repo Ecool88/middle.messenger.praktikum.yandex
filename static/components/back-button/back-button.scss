@@ -1,3 +1,5 @@
+@import "../../layout/colors";
+
 .form{
   margin: 0;
   &__btn-back{
@@ -5,9 +7,9 @@
     height: 100%;
     border: none;
     outline: none;
-    background-color: #EDEDED;
+    background-color: $background-color_light-grey;
     &:active{
-      background-color: #999;
+      background-color: $color_grey;
     }
   }
   &__img{

@@ -14,7 +14,7 @@
 .aside__logo {
   width: 47px;
   height: 47px;
-  background-color: grey;
+  background-color: #999999;
   border-radius: 50%;
 }
 .aside__link-profile {
@@ -33,10 +33,10 @@
   outline: none;
   background: #FFF;
   font-size: 15px;
-  color: #999;
+  color: #999999;
 }
 .search__input::placeholder {
-  color: #999;
+  color: #999999;
 }
 
 /*# sourceMappingURL=owner-profile.css.map */

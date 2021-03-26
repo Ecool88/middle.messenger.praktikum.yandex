@@ -7,33 +7,41 @@ const PORT = 3000;
 
 // app.use(express.icons('./'));
 
+
+
 app.get('/', (req, res) => {
-    // res.send('hello')
-    res.sendFile(path.resolve('dist' + '/index.html'))
+    pathIndex = path.resolve("dist", "index.html")
+    res.sendFile(pathIndex)
 });
 
 app.get('/login/login.html', (req, res) => {
-    res.sendFile(path.resolve('dist' + '/login/login.html'))
+    pathLogin = path.resolve("dist/login", "login.html")
+    res.sendFile(pathLogin)
 });
 
 app.get('/signin/signin.html', (req, res) => {
-    res.sendFile(path.resolve('dist' + '/signin/signin.html'))
+    pathSignin = path.resolve("dist/signin", "signin.html")
+    res.sendFile(pathSignin)
 });
 
 app.get('/profile/profile.html', (req, res) => {
-    res.sendFile(path.resolve('dist' + '/profile/profile.html'))
+    pathProfile = path.resolve("dist/profile", "profile.html")
+    res.sendFile(pathProfile)
 });
 
 app.get('/chats/chats.html', (req, res) => {
-    res.sendFile(path.resolve('dist' + '/chats/chats.html'))
+    pathChats = path.resolve("dist/chats", "chats.html")
+    res.sendFile(pathChats)
 });
 
 app.get('/404/404.html', (req, res) => {
-    res.sendFile(path.resolve('dist' + '/404/404.html'))
+    path404 = path.resolve("dist/404", "404.html")
+    res.sendFile(path404)
 });
 
 app.get('/505/505.html', (req, res) => {
-    res.sendFile(path.resolve('dist' + '/505/505.html'))
+    path505 = path.resolve("dist/505", "505.html")
+    res.sendFile(path505)
 });
 
 app.listen(PORT, function () {

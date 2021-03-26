@@ -1,8 +1,10 @@
+@import "../../layout/colors";
+
 .user-avatar{
   width: 130px;
   height: 130px;
   margin: 0 auto;
-  background: #EDEDED;
+  background: $background-color_light-grey;
   border-radius: 50%;
   position: relative;
   &__wrapper{
@@ -41,7 +43,7 @@
     background: rgba(0, 0, 0, .5);
   }
   &__change-link{
-    color: white;
+    color: $color_white;
     font-size: 15px;
     line-height: 14px;
     cursor: pointer;

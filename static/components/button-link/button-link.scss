@@ -1,9 +1,11 @@
+@import "../../layout/colors";
+
 .link{
   margin: 15px 0;
   text-align: center;
   &__item{
     text-decoration: none;
-    color: #3369F3;
+    color: $color_blue;
     font-size: 13px;
   }
 }

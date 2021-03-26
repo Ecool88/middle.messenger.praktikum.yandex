@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["chats.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EACA;;;AAGF;EACE;;;AAEF;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA","file":"chats.css"}
+{"version":3,"sourceRoot":"","sources":["chats.scss","../../layout/colors.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;;;AAGF;EACE;;;AAEF;EACE;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AAGF;EACE;EACA,OCvBW;EDwBX","file":"chats.css"}

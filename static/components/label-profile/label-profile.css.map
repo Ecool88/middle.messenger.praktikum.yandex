@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["label-profile.scss"],"names":[],"mappings":"AACE;EACE;EACA;EACA;EACA;EACA;;;AAIF;EACE;;AAEF;EACE;EACA","file":"label-profile.css"}
+{"version":3,"sourceRoot":"","sources":["label-profile.scss","../../layout/colors.scss"],"names":[],"mappings":"AAGE;EACE;EACA;EACA;EACA;EACA;;;AAIF;EACE;;AAEF;EACE;EACA,OCbS","file":"label-profile.css"}

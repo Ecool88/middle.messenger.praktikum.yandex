@@ -1,3 +1,5 @@
+@import "../../layout/colors";
+
 .list-chat__item{
   padding: 10px;
   display: flex;
@@ -29,11 +31,11 @@
   justify-content: space-between;
   &__user{
     font-size: 13px;
-    color: #1E1E1E;
+    color: $color_black;
   }
   &__date{
     font-size: 9px;
-    color: #999;
+    color: $color_grey;
   }
 }
 
@@ -45,7 +47,7 @@
   flex-grow: 1;
   &__text-preview{
     font-size: 12px;
-    color: #999;
+    color: $color_grey;
   }
   &__unread-message{
     width: 17px;
@@ -54,8 +56,8 @@
     font-size: 12px;
     margin-left: auto;
     text-align: center;
-    background: #3369F3;
-    color: white;
+    background: $color_blue;
+    color: $color_white;
   }
 }
 

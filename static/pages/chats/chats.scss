@@ -1,3 +1,5 @@
+@import "../../layout/colors";
+
 ul{
   padding: 0;
   margin: 0;
@@ -23,6 +25,6 @@ main{
 
 .choose-chat{
   font-size: 13px;
-  color: #999;
+  color: $color_grey;
   text-align: center;
 }

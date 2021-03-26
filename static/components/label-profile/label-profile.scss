@@ -1,3 +1,5 @@
+@import "../../layout/colors";
+
 .user-info{
   &__item{
     height: 25px;
@@ -13,7 +15,7 @@
   }
   &__subtitle{
     font-size: 15px;
-    color: #999;
+    color: $color_grey;
   }
 }
 

@@ -1,9 +1,11 @@
+@import "../../layout/colors";
+
 .owner-profile{
   height: 10vh;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  background-color: #EDEDED;
+  background-color: $background-color_light-grey;
 
   &__aside{
     display: flex;
@@ -16,12 +18,12 @@
   &__logo{
     width: 47px;
     height: 47px;
-    background-color: grey;
+    background-color: $color_grey;
     border-radius: 50%;
   }
   &__link-profile{
     text-decoration: none;
-    color: #919191;
+    color: $color_dark-grey;
   }
 }
 
@@ -33,11 +35,11 @@
     border-radius: 5px;
     border: none;
     outline: none;
-    background: #FFF;
+    background: $color_white;
     font-size: 15px;
-    color: #999;
+    color: $color_grey;
     &::placeholder{
-      color: #999;
+      color: $color_grey;
     }
   }
 }

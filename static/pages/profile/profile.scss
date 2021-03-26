@@ -1,3 +1,5 @@
+@import "../../layout/colors";
+
 main{
   flex-grow: 1;
 }
@@ -25,7 +27,7 @@ main{
     margin-bottom: 10px;
     font-size: 15px;
     text-decoration: none;
-    color: #3369F3;
+    color: $color_blue;
     border-bottom: 1px solid #EAEAEA;
   }
   &__exit{

@@ -1,13 +1,13 @@
-form.form
+form.form(name='formData')
     div.form__inputs
         include ../../components/label-form/label-form
-        +formItem('Почта', 'text', 'Введите почту')
-        +formItem('Логин', 'text', 'Введите логин')
-        +formItem('Имя', 'text', 'Введите имя')
-        +formItem('Фамилия', 'text', 'Введите фамилию')
-        +formItem('Телефон', 'number', 'Введите телефон')
-        +formItem('Пароль', 'password','Введите пароль')
-        +formItem('Повторите пароль', 'password','Повторите пароль')
+        +formItem('mail', 'Почта', 'text', 'Введите почту')
+        +formItem('login', 'Логин', 'text', 'Введите логин')
+        +formItem('name', 'Имя', 'text', 'Введите имя')
+        +formItem('surname', 'Фамилия', 'text', 'Введите фамилию')
+        +formItem('number phone', 'Телефон', 'number', 'Введите телефон')
+        +formItem('password', 'Пароль', 'password','Введите пароль')
+        +formItem('repeat password', 'Повторите пароль', 'password','Повторите пароль')
     div.form__buttons
         include ../../components/button/button
         +buttonItem('Зарегистрироваться')

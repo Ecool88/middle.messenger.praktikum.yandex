@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["label-form.scss"],"names":[],"mappings":"AAIE;EACE;EACA;;AAEF;EACE;EACA;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA","file":"label-form.css"}
+{"version":3,"sourceRoot":"","sources":["label-form.scss","../../layout/colors.scss"],"names":[],"mappings":"AAGE;EACE;EACA;;AAEF;EACE,OCHc;EDId;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA,OCjBU","file":"label-form.css"}

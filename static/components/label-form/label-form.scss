@@ -1,13 +1,12 @@
-//@import "color";
+@import "../../layout/colors";
 
 .form{
-  //background-color: $color_black;
   &__item{
     display: flex;
     flex-direction: column;
   }
   &__label{
-    color: #999999;
+    color: $color_dark_grey;
     font-size: 11px;
   }
   &__input{
@@ -17,7 +16,7 @@
     outline: none;
     border: none;
     background: none;
-    border-bottom: 1px solid #3369F3;
-    color: #1E1E1E;
+    border-bottom: 1px solid $color_blue;
+    color: $color_black;
   }
 }

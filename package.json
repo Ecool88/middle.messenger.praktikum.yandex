@@ -4,9 +4,9 @@
   "description": "This is project for module 1",
   "main": "main.js",
   "scripts": {
-    "start": "./node_modules/.bin/parcel build static/pages/index.pug static/pages/chats/chats.pug static/pages/login/login.pug static/pages/profile/profile.pug static/pages/signin/signin.pug && node ./server.js",
-    "dev": "./node_modules/.bin/parcel src.pages/index.html static/pages/**/*.pug --open --port 3000",
-    "build": "./node_modules/.bin/parcel build static/pages/index.pug static/pages/**/*.pug"
+    "start": "parcel build static/pages/index.pug static/pages/chats/chats.pug static/pages/login/login.pug static/pages/profile/profile.pug static/pages/signin/signin.pug && node ./server.js",
+    "dev": "parcel src.pages/index.html static/pages/**/*.pug --open --port 3000",
+    "build": "parcel build static/pages/index.pug static/pages/**/*.pug"
   },
   "repository": {
     "type": "git",

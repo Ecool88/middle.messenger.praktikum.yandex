@@ -1,8 +1,8 @@
-form.form
+form.form(name='formData')
     div.form__inputs
         include ../../components/label-form/label-form
-        +formItem('Логин', 'text', 'Введите логин')
-        +formItem('Пароль', 'password','Введите пароль')
+        +formItem('login' ,'Логин', 'text', 'Введите логин')
+        +formItem('password', 'Пароль', 'password','Введите пароль')
     div.form__buttons
         include ../../components/button/button
         +buttonItem('Авторизация')

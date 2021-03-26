@@ -1,6 +1,26 @@
 extends ../../layout/layout
 block variables
     - var title = 'Chats'
+    -
+        var chats = [{name: 'ivan', message: 'photo', date: '10:33', unread: '2'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20', unread: '5'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20', unread: '4'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20', unread: '3'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'},
+                     {name: 'dima', message: 'video', date: '4:20'}]
 
 block scripts
     script(src='./chats.js')
@@ -8,27 +28,14 @@ block scripts
 block content
     div.wrapper
         div.users
-            include ../../components/owner-profile/owner-profile
+            header
+                include ../../components/owner-profile/owner-profile
             nav
                 ul.list-chat
                     include ../../components/item-user/item-user
-                    +itemUser('Андрей', 'Изображение', '10:33', '2')
-                    +itemUser('Иван', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij jfoj fj ij4 ijfij kf k', '10:33', '4')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33', '2')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
-                    +itemUser('iava', 'sjfiejwfij', '10:33')
+                    each val in chats
+                        +itemUser(val.name, val.message, val.date, val.unread)
+
         main
             include ../../components/header-chat/header-chat
             +headerChat('Вадим')
